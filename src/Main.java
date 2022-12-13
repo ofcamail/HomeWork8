@@ -5,5 +5,6 @@ public class Main {
         Books notesOfTheDistrictSurgeon = new Books("Записки районного хирурга", 2000, dmitriyPravdin);
         Books theClimb = new Books("Восхождение", 1997, anatoliBoukreev);
         notesOfTheDistrictSurgeon.setYearPublication(2002);
+        System.out.println(theClimb.toString());
     }
 }
